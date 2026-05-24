@@ -1,0 +1,16 @@
+# Compiled binaries
+*.exe
+*.out
+*.app
+
+# build directories
+build/
+dist/
+
+# VS Code specific
+.vscode/
+
+# Windows specific
+Thumbs.db
+*.obj
+*.pdb
