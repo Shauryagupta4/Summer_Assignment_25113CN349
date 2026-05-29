@@ -12,4 +12,4 @@ int main()
     }
     printf("sum of first N natural number is: %d", sum);
     return 0;
-}
+} 
