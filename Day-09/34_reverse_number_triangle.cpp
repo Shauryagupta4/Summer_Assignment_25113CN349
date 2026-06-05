@@ -1,0 +1,25 @@
+#include <iostream>
+int main()
+{
+    int num;
+    std::cout<<"Enter the number of rows";
+    std::cin>>num;
+    for (int i=num;i>0;i--)
+    {
+        for (int j=1;j<=i;j++)
+        {
+            std::cout<<j;
+        }
+        std::cout<<std::endl;
+    }
+    return 0;
+}
+
+/*
+output for num=5
+12345
+1234
+123
+12
+1
+*/
